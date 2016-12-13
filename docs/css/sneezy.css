@@ -4,7 +4,7 @@
 
 body {
   background: url("../img/background.jpg") no-repeat #81B3AD center center fixed;
-  background-size: contain;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
   body {
     background: url("../img/background@2x.jpg") no-repeat #81B3AD center center fixed;
-    background-size: contain;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
