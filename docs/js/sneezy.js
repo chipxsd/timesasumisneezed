@@ -10,7 +10,7 @@ function pseudoRandom(seedValue) {
     return Math.abs(x);
 }
 
-$(document).ready(function() {
+function refreshTimesSneezed() {
   var currentDate = new Date();
   var currentHours = currentDate.getHours();
   var currentDay = currentDate.getDate();
@@ -19,4 +19,9 @@ $(document).ready(function() {
   var sneezes = normalizedTime * maxSneezesPerDay;
   sneezes += pseudoRandom(currentDay + currentMonth) * (((errorMargin / 2)-errorMargin) * normalizedTime);
   $("#asumiSneezeCount").text(Math.floor(sneezes));
+}
+
+$(document).ready(function() {
+  refreshTimesSneezed();
+  var tid = setInterval(refreshTimesSneezed, 1000 * 60);
 });
