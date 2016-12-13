@@ -33,7 +33,6 @@ section {
   width: 600px;
   display: block;
   margin: auto;
-  /*border: 1px solid red;*/
 }
 
 section.question {
@@ -58,7 +57,6 @@ h1 {
 }
 
 section.question h1 div {
-  /*border: 1px solid red;*/
   font-size: 100%;
   float: left;
   margin-right: 10px;
@@ -173,12 +171,11 @@ section.sumi h2 {
   }
 
   section.question h1 div:nth-child(5) {
-    display: inline;;
+    display: inline;
     font-size: 60%;
     position: relative;
     top: -32px;
     left: 190px;
-    /*text-align: right;*/
   }
 
   section.sumi {
