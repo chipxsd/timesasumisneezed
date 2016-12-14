@@ -41,7 +41,7 @@ section {
 
 section.question {
   margin-top: 60px;
-  height: 250px;
+  height: 350px;
 }
 
 /*
@@ -64,7 +64,7 @@ p {
   font-size: 12px;
 }
 
-section.question h1 div {
+section.question h1 span {
   font-size: 100%;
   float: left;
   margin-right: 10px;
@@ -72,12 +72,12 @@ section.question h1 div {
   line-height: 100%;
 }
 
-section.question h1 div:nth-child(1) {
+section.question h1 span:nth-child(1) {
   text-transform: lowercase;
   margin-left: 70px;
 }
 
-section.question h1 div:nth-child(2) {
+section.question h1 span:nth-child(2) {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 105%;
@@ -85,13 +85,13 @@ section.question h1 div:nth-child(2) {
   margin-bottom: 10px;
 }
 
-section.question h1 div:nth-child(3) {
+section.question h1 span:nth-child(3) {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 107%;
 }
 
-section.question h1 div:nth-child(4) {
+section.question h1 span:nth-child(4) {
   text-transform: lowercase;
   font-size: 80%;
   line-height: 60%;
@@ -99,7 +99,7 @@ section.question h1 div:nth-child(4) {
   margin-right: 0px;
 }
 
-section.question h1 div:nth-child(5) {
+section.question h1 span:nth-child(5) {
   text-transform: lowercase;
   font-size: 100%;
   line-height: 60%;
@@ -139,7 +139,7 @@ section.sumi p em {
 
 @media (min-width: 340px) and (max-width: 600px) {
   section {
-    width: 370px;
+    width: 350px;
   }
 
   h1 {
@@ -147,51 +147,52 @@ section.sumi p em {
   }
 
   section.question {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
-  section.question h1 div {
-    float: none;
+  section.question h1 span {
+    float: left;
+    margin-left: 10px;
   }
 
-  section.question h1 div:nth-child(1) {
-    font-size: 70%;
+  section.question h1 span:nth-child(1) {
+    font-size: 60%;
     text-align: left;
     margin-left: 5px;
+    line-height: 120%;
   }
 
-  section.question h1 div:nth-child(2) {
+  section.question h1 span:nth-child(2) {
     line-height: 95%;
-    font-size: 130%;
+    font-size: 124%;
   }
 
-  section.question h1 div:nth-child(3) {
-    font-size: 110%;
-    line-height: 80%;
+  section.question h1 span:nth-child(3) {
+    font-size: 98%;
+    line-height: 90%;
   }
 
-  section.question h1 div:nth-child(4) {
+  section.question h1 span:nth-child(4) {
     line-height: 100%;
-    font-size: 65%;
-    text-align: right;
+    font-size: 60%;
     display: inline;
     position: relative;
-    top: -40px;
-    left: 190px;
+    top: 0px;
+    left: 172px;
   }
 
-  section.question h1 div:nth-child(5) {
+  section.question h1 span:nth-child(5) {
     display: inline;
     font-size: 60%;
     position: relative;
-    top: -32px;
-    left: 190px;
+    top: 23px;
+    left: 172px;
   }
 
   section.sumi {
     width: 350px;
-    height: 220px;
-    top: -10px;
+    height: 300px;
+    top: -100px;
   }
 
   section.sumi img {
@@ -217,56 +218,58 @@ section.sumi p em {
   }
 
   section.question {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
-  section.question h1 div {
-    float: none;
+  section.question h1 span {
+    float: left;
+    margin: 0;
+    padding: 0;
   }
 
-  section.question h1 div:nth-child(1) {
+  section.question h1 span:nth-child(1) {
     font-size: 70%;
     text-align: left;
     margin-left: 5px;
+    line-height: 100%;
   }
 
-  section.question h1 div:nth-child(2) {
-    line-height: 95%;
+  section.question h1 span:nth-child(2) {
+    line-height: 100%;
     font-size: 130%;
   }
 
-  section.question h1 div:nth-child(3) {
-    font-size: 105%;
+  section.question h1 span:nth-child(3) {
     line-height: 80%;
+    font-size: 105%;
   }
 
-  section.question h1 div:nth-child(4) {
-    line-height: 100%;
+  section.question h1 span:nth-child(4) {
+    line-height: 120%;
     font-size: 65%;
-    text-align: right;
     display: inline;
     position: relative;
-    top: -40px;
+    top: 0px;
     left: 140px;
   }
 
-  section.question h1 div:nth-child(5) {
+  section.question h1 span:nth-child(5) {
     display: inline;
     font-size: 60%;
     position: relative;
-    top: -34px;
+    top: 25px;
     left: 140px;
   }
 
   section.sumi {
     width: 280px;
     height: 300px;
-    top: -50px;
+    top: -140px;
     left: -20px;
   }
 
   section.sumi img {
-    width: 170px;
+    width: 180px;
   }
 
   section.sumi p em {
@@ -274,7 +277,7 @@ section.sumi p em {
     line-height: 250px;
     position: absolute;
     left: 170px;
-    top: 55px;
+    top: 60px;
   }
 }
 
