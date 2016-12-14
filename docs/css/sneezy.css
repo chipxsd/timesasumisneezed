@@ -127,7 +127,7 @@ section.sumi h2 {
  * Responsivness
  */
 
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 340px) and (max-width: 600px) {
   section {
     width: 370px;
   }
@@ -193,6 +193,76 @@ section.sumi h2 {
     line-height: 250px;
     position: absolute;
     left: 200px;
+    top: 100px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 339px) {
+  section {
+    width: 280px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  section.question {
+    margin-top: 20px;
+  }
+
+  section.question h1 div {
+    float: none;
+  }
+
+  section.question h1 div:nth-child(1) {
+    font-size: 70%;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  section.question h1 div:nth-child(2) {
+    line-height: 95%;
+    font-size: 130%;
+  }
+
+  section.question h1 div:nth-child(3) {
+    font-size: 105%;
+    line-height: 80%;
+  }
+
+  section.question h1 div:nth-child(4) {
+    line-height: 100%;
+    font-size: 65%;
+    text-align: right;
+    display: inline;
+    position: relative;
+    top: -40px;
+    left: 140px;
+  }
+
+  section.question h1 div:nth-child(5) {
+    display: inline;
+    font-size: 60%;
+    position: relative;
+    top: -34px;
+    left: 140px;
+  }
+
+  section.sumi {
+    width: 350px;
+    height: 220px;
+    top: -50px;
+  }
+
+  section.sumi img {
+    width: 190px;
+  }
+
+  section.sumi h2 {
+    font-size: 160px;
+    line-height: 250px;
+    position: absolute;
+    left: 175px;
     top: 100px;
   }
 }
