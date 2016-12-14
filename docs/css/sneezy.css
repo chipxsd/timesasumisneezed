@@ -40,8 +40,8 @@ section {
 }
 
 section.question {
-  margin-top: 60px;
-  height: 350px;
+  margin-top: 80px;
+  height: 200px;
 }
 
 /*
@@ -80,8 +80,8 @@ section.question h1 span:nth-child(1) {
 section.question h1 span:nth-child(2) {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 105%;
-  line-height: 90%;
+  font-size: 100%;
+  line-height: 100%;
   margin-bottom: 10px;
 }
 
@@ -89,12 +89,13 @@ section.question h1 span:nth-child(3) {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 107%;
+  line-height: 80%;
 }
 
 section.question h1 span:nth-child(4) {
   text-transform: lowercase;
   font-size: 80%;
-  line-height: 60%;
+  line-height: 30%;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -115,7 +116,7 @@ section.sumi {
   width: 500px;
   height: 420px;
   position: relative;
-  top: -120px;
+  top: -80px;
 }
 
 section.sumi p span {
@@ -148,6 +149,7 @@ section.sumi p em {
 
   section.question {
     margin-top: 20px;
+    height: 360px;
   }
 
   section.question h1 span {
@@ -164,11 +166,11 @@ section.sumi p em {
 
   section.question h1 span:nth-child(2) {
     line-height: 95%;
-    font-size: 124%;
+    font-size: 120%;
   }
 
   section.question h1 span:nth-child(3) {
-    font-size: 98%;
+    font-size: 100%;
     line-height: 90%;
   }
 
@@ -192,7 +194,7 @@ section.sumi p em {
   section.sumi {
     width: 350px;
     height: 300px;
-    top: -100px;
+    top: -110px;
   }
 
   section.sumi img {
@@ -219,6 +221,7 @@ section.sumi p em {
 
   section.question {
     margin-top: 30px;
+    height: 310px;
   }
 
   section.question h1 span {
@@ -264,8 +267,8 @@ section.sumi p em {
   section.sumi {
     width: 280px;
     height: 300px;
-    top: -140px;
-    left: -20px;
+    top: -100px;
+    left: -10px;
   }
 
   section.sumi img {
