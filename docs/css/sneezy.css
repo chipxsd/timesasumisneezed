@@ -249,9 +249,10 @@ section.sumi h2 {
   }
 
   section.sumi {
-    width: 350px;
-    height: 220px;
+    width: 280px;
+    height: 300px;
     top: -50px;
+    left: -20px;
   }
 
   section.sumi img {
