@@ -18,7 +18,11 @@ function refreshTimesSneezed() {
   var normalizedTime = (Math.max(currentHours, dayStartsAt) - dayStartsAt) / (dayEndsAt - dayStartsAt);
   var sneezes = normalizedTime * maxSneezesPerDay;
   sneezes += pseudoRandom(currentDay + currentMonth) * (((errorMargin / 2)-errorMargin) * normalizedTime);
-  $("#asumiSneezeCount").text(Math.floor(sneezes));
+  sneezes = Math.floor(sneezes);
+  $("#asumiSneezeCount").text(sneezes);
+  $("#times").text((sneezes == 1) ? "time" : "times");
+  $("#published").text(currentDate.toString());
+  $("#published").attr("title", currentDate.getFullYear()+"-"+currentDate.getMonth()+"-"+currentDate.getDate()+"-T"+currentDate.getHours()+":"+currentDate.getMinutes()+":"+currentDate.getSeconds()+"-0900");
 }
 
 $(document).ready(function() {
